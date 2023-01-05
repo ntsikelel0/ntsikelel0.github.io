@@ -87,10 +87,17 @@ main li p{
 }
 
 @media (max-width: 48rem) {
+    
+    #page-logo a{
+        font-size: 1.5rem;
+    }
+
+
     main ul{
         grid-template-columns: 100%;
         height: 100%;
         width: 100%;
+        margin-bottom: 0;
     }
     main li{
         flex-direction: column;
