@@ -90,9 +90,9 @@ footer img{
         margin: 0.1rem;
         padding: 0.1rem;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         flex-direction: row;
-        width: 9rem;
+        width: auto;
 
     }
 
