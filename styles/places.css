@@ -87,11 +87,10 @@ main li p{
 }
 
 @media (max-width: 48rem) {
-    
+
     #page-logo a{
         font-size: 1.5rem;
     }
-
 
     main ul{
         grid-template-columns: 100%;
@@ -99,14 +98,17 @@ main li p{
         width: 100%;
         margin-bottom: 0;
     }
+
     main li{
         flex-direction: column;
         height: fit-content;
         width: 100%;
     }
+
     li:nth-of-type(3) {
         grid-column: 1 / 1;
     }
+    
     main li img {
         width: 100%;
         height: auto;
