@@ -122,15 +122,17 @@
 
     #destination{
         align-items: center;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
+        display: grid;
+        justify-content: center;
+        margin-left: 4rem;
+    
 
     }
 
     .destination p{
         font-size: 1rem;
         margin: 1.43rem 0;
+        text-align: left;
     }
 
     .destination img{
