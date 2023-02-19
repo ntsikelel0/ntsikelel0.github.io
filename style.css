@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #080808;
+    background: rgb(8, 8, 8);
     color: floralwhite;
 }
 
@@ -86,7 +86,8 @@ nav ul li a:hover::after{
 
 .myimage img{
 
-    width: 35%;
-    height: 55%;
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
    
 }
