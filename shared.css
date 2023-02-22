@@ -6,10 +6,7 @@
 }
 
 body{
-    color: rgb(255, 250, 240);
-    background-image: url(images/sonji.jpg);
-    background-size: cover;
-    
+    color: rgb(255, 250, 240);  
 }
 
 #header{
