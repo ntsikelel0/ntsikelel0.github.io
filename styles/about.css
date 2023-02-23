@@ -97,3 +97,9 @@ section {
     color: #ff004f;
     font-style: none;
 }
+
+.font-italic a:hover{
+    color:white;
+    border-radius: 2px;
+    background-color: #c9144d;
+}
