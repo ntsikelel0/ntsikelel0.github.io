@@ -24,23 +24,27 @@ section {
     left: calc(50% - 25px);
 }
 
-
-.containerimg{
+.table_experience{
     margin-top: 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+
 }
 
-.containerimg h2{
+.table_experience table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.table_experience td, th {
+    border: none;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+.table_experience th{
     color: #ff004f;
+    font-size: 1.5rem;
 }
 
-.containerimg ul li{
-    list-style: none; 
-    padding-right: 60px;
-    margin-bottom: 5%;
-}
-
-#qualification-skills{
-    display: flex;
-}
