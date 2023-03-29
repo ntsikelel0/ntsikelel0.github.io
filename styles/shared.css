@@ -103,13 +103,21 @@ body{
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .hamburger.active .bar:nth-child(4){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hamburger.active .bar:nth-child(5){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
     .nav-menu{
         position: fixed;
         left: -100%;
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #ff004f;
+        background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
         width: 100%;
         text-align: center;
         transition: 0.3s;
