@@ -108,16 +108,16 @@ section {
 .header-text {margin-top: 15%;}
 
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media(max-width: 768px) {
 .row {padding-top: 20px; display: block;  width: 100%;}
 .section-title p {font-size: 18px;  line-height: 30px;}
 col-lg-8 pt-4.pt-lg-0.content {padding: 35px 0;}
 nav ul li {margin: 20px 8px;}
-
+.row{
+    flex-direction: column;
 }
-
-
-@media only screen and (min-width: 960px) and (max-width: 1239px) {
-div.col-lg-4 {width: 50%;}
-col-lg-8 pt-4.pt-lg-0.content { width: 50%;}
-.row img {width: auto;  max-width: 100%;}}
+.row img{
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 1.563rem;
+}}
