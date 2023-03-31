@@ -93,7 +93,7 @@ body{
     background-color: white;
 }
 
-@media only screen and (min-width:480px) and (max-width:767px){
+@media (max-width:767px){
     .hamburger{
         display: block;
     }
