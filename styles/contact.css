@@ -23,3 +23,21 @@ section {
     bottom: 0;
     left: calc(50% - 25px);
 }
+
+.contact-form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid rgb(42, 39, 39);
+    border-radius: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+}
+.contact-form textarea{
+    width: 100%;
+}
+
+#submit{
+    background-color: #c9144d;
+}
