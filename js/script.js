@@ -2,6 +2,7 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const h2tag = document.querySelector("#h2tag");
 const navMenu2 = document.querySelector("#nav-menu");
+const footerTag = document.querySelector("footer");
 
 hamburger.addEventListener("click", () =>{
     hamburger.classList.toggle("active");
@@ -10,10 +11,12 @@ hamburger.addEventListener("click", () =>{
     if(navMenu2.className == "nav-menu active")
     {
         h2tag.style.visibility = 'hidden';
+        footerTag.style.visibility = "hidden";
     }
     else
     {
         h2tag.style.visibility = 'visible';
+        footerTag.style.visibility = "visible";
     }
     
 })
