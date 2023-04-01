@@ -16,16 +16,33 @@ body{
     margin-top: 2%;
 }
 
-@media (max-width: 767px) {
-    .header-text p{
+.header-text{
+    margin-top: 3%;
+    font-size: 1.875rem;
+}
+
+.header-text h1{
+    font-size: 3.75rem;
+    margin-top: .25rem;
+
+}
+
+.header-text h1 span{
+    color: #ff004f;
+
+}
+
+@media (max-width: 1180px) {
+    .p-title{
+        padding-top: 20px;
         font-size: 1.5rem;
-        display: inline;
     }
     .header-text h1{
-        size: 1rem;
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+    .p-description{
         font-size: 1rem;
         display: inline;
     }
-    .header-text{
-        font-size: 0.5rem;
-    }}
+}
