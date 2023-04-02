@@ -12,13 +12,13 @@ hamburger.addEventListener("click", () =>{
 
     if(navMenu2.className == "nav-menu active")
     {
-        h2tag.style.visibility = 'hidden';
         footerTag.style.visibility = "hidden";
+        h2tag.style.visibility = 'hidden';
     }
     else
     {
-        h2tag.style.visibility = 'visible';
         footerTag.style.visibility = "visible";
+        h2tag.style.visibility = 'visible';
     }
     
 })
